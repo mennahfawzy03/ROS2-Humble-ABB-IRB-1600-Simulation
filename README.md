@@ -16,5 +16,7 @@
 - sourcing the workspace 
 ## Create a package 
 
-
+```
+cd ros
+```
 
