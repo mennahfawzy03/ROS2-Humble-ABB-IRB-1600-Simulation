@@ -12,6 +12,7 @@
 - checking the version
 ### Restarting Gazebo
 -ps aux | grep gz
+
 ## Create a workspace 
 - sourcing the workspace 
 ## Create a package 
