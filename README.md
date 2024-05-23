@@ -9,7 +9,9 @@
 -  ros2 run turtlesim turtlesim_node
 - then in a new terminal, ros2 run turtlesim turtle_teleop_key 
 ## Gazebo installation 
-- checking the version 
+- checking the version
+### Restarting Gazebo
+-ps aux | grep gz
 ## Create a workspace 
 - sourcing the workspace 
 ## Create a package 
