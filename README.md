@@ -18,6 +18,6 @@
 ## Create a package 
 
 ```
-cd ros
+colcon build
 ```
 
