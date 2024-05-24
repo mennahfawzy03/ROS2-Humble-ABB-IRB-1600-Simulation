@@ -21,3 +21,6 @@
 colcon build
 ```
 
+## Converting package that was made in ros1 to one that is compatible with ros2
+https://industrial-training-master.readthedocs.io/en/humble/_source/session7/ROS1-to-ROS2-porting.html
+
