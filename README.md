@@ -40,3 +40,10 @@ sudo apt update
 ```
 sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
 ```
+# Upgrade/Update
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
