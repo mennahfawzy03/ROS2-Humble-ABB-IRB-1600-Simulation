@@ -24,3 +24,19 @@ colcon build
 ## Converting package that was made in ros1 to one that is compatible with ros2
 https://industrial-training-master.readthedocs.io/en/humble/_source/session7/ROS1-to-ROS2-porting.html
 
+# Trouble shooting ros2 and gazebo11
+```
+sudo apt install ros-humble-gazebo-ros-pkgs ros-
+```
+- the output was 'E: Unable to locate package ros-humble-gazebo-ros-control'
+```
+sudo apt update
+```
+- to find the packages related to ros-humble-gazebo
+```
+ apt-cache search ros-humble-gazebo
+```
+- there was a spelling error should have been as follows: 
+```
+sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
+```
