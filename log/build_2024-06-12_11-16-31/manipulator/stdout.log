@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/menna/ws_manipulator/build/manipulator
+-- Install configuration: ""
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/launch
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/launch/display.launch.py
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/urdf
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/urdf/models.urdf
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_4.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_2.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_6.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_5.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/base_link.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_3.STL
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/meshes/link_1.STL
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/ament_index/resource_index/package_run_dependencies/manipulator
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/ament_index/resource_index/parent_prefix_path/manipulator
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/environment/ament_prefix_path.sh
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/environment/path.sh
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/environment/path.dsv
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/local_setup.bash
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/local_setup.sh
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/local_setup.zsh
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/local_setup.dsv
+-- Installing: /home/menna/ws_manipulator/install/manipulator/share/manipulator/package.dsv
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/ament_index/resource_index/packages/manipulator
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/cmake/manipulatorConfig.cmake
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/cmake/manipulatorConfig-version.cmake
+-- Up-to-date: /home/menna/ws_manipulator/install/manipulator/share/manipulator/package.xml
