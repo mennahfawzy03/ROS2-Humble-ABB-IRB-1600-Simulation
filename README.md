@@ -52,7 +52,7 @@ sudo apt upgrade
 Welcome to the documentation for the Digital Twin Creation project. This repository contains detailed instructions and guides on how to create a digital twin using ROS2, Gazebo, and a depth camera.
 
 ## Table of Contents
-1. [Introduction](introduction.md)
+1. [Introduction](docs/introduction.md)
 2. [Project Overview](docs/project_overview.md)
 3. [Prerequisites](docs/prerequisites.md)
 4. [Tools and Technologies](docs/tools_and_technologies.md)
