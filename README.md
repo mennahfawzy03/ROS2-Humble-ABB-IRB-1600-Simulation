@@ -47,3 +47,38 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
+# Digital Twin Creation Documentation
+
+Welcome to the documentation for the Digital Twin Creation project. This repository contains detailed instructions and guides on how to create a digital twin using ROS2, Gazebo, and a depth camera.
+
+## Table of Contents
+1. [Introduction](docs/introduction.md)
+2. [Project Overview](docs/project_overview.md)
+3. [Prerequisites](docs/prerequisites.md)
+4. [Tools and Technologies](docs/tools_and_technologies.md)
+5. [Setup](docs/setup.md)
+6. [Creating the Digital Twin](docs/creating_the_digital_twin.md)
+    - [Step 1: Model Preparation](docs/step_1_model_preparation.md)
+    - [Step 2: Environment Setup](docs/step_2_environment_setup.md)
+    - [Step 3: Integration](docs/step_3_integration.md)
+    - [Step 4: Testing](docs/step_4_testing.md)
+7. [Challenges and Solutions](docs/challenges_and_solutions.md)
+8. [Future Work](docs/future_work.md)
+9. [Conclusion](docs/conclusion.md)
+10. [References](docs/references.md)
+
+## Quick Links
+- [GitHub Repository](https://github.com/yourusername/yourrepository)
+- [Issues](https://github.com/yourusername/yourrepository/issues)
+- [Pull Requests](https://github.com/yourusername/yourrepository/pulls)
+
+## Getting Started
+To get started with the project, follow the [Setup Guide](docs/setup.md).
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Thanks to all the contributors and maintainers of the ROS and Gazebo projects.
+- Special thanks to the community for the support and resources.
+
