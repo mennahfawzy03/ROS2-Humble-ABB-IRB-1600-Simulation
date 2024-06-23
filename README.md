@@ -1,4 +1,42 @@
-# ROS2 Enviornment setup 
+
+### Prerequisites
+
+This table outlines the essential hardware and software requirements for setting up and operating ROS 2, Gazebo, and RViz for running the packages.
+
+| **Requirement Type** | **Description**                      | **Details/Version**              |
+|----------------------|--------------------------------------|----------------------------------|
+| Hardware             | Computer Specifications              | Lenovo Legion S7 16IAH7          |
+|                      | Memory                               | 24.0 GiB                         |
+|                      | Processor                            | 12th Gen Intel® Core™ i7-12700H × 20 |
+|                      | Graphics                             | NVIDIA GeForce RTX 3070 Mobile   |
+| Operating System     | Supported OS                         | Ubuntu 22.04.4 LTS               |
+| Software             | ROS 2 Distribution                   | Humble Hawksbill                 |
+|                      | Gazebo                               | Gazebo 11                        |
+|                      | Visual Studio Code                   | Latest Version                   |
+| Dependencies         | Development Tools and Libraries      | Python 3.8, CMake, Git           |
+
+## Installation Instructions
+
+### ROS 2 Humble Installation on Ubuntu 22.04
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+sudo apt update && sudo apt install curl
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+sudo apt update
+sudo apt install ros-humble-desktop
+source /opt/ros/humble/setup.bash
+
+# Install additional dependencies
+sudo apt install python3-colcon-common-extensions
+sudo apt install ros-dev-tools
 
 ## Specifications
 ## Ros2 installation 
@@ -52,7 +90,7 @@ sudo apt upgrade
 Welcome to the documentation for the Digital Twin Creation project. This repository contains detailed instructions and guides on how to create a digital twin using ROS2, Gazebo, and a depth camera.
 
 ## Table of Contents
-1. [Introduction](docs/introduction.md)
+1. [Software Installations](docs/installations.md)
 2. [Project Overview](docs/project_overview.md)
 3. [Prerequisites](docs/prerequisites.md)
 4. [Tools and Technologies](docs/tools_and_technologies.md)
