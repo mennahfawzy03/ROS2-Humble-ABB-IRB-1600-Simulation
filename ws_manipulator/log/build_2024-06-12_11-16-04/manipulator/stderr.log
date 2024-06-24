@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/menna/ws_manipulator/src/manipulator/config": No such file or
-  directory.
-
-[0m
