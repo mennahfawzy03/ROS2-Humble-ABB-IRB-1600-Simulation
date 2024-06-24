@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+
+<robot name="robot_manipulator">
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/base_link.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 1 -->
+  <joint name="joint_1" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <limit effort="0" lower="-2.967" upper="2.967" velocity="1.7453"/>
+  </joint>
+
+  <!-- Link 1 -->
+  <link name="link_1">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_1.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 2 -->
+  <joint name="joint_2" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <limit effort="0" lower="-1.134" upper="1.4855" velocity="1.5707"/>
+  </joint>
+
+  <!-- Link 2 -->
+  <link name="link_2">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_2.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 3 -->
+  <joint name="joint_3" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <limit effort="0" lower="-3.142" upper="1.222" velocity="1.5707"/>
+  </joint>
+
+  <!-- Link 3 -->
+  <link name="link_3">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_3.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 4 -->
+  <joint name="joint_4" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <limit effort="0" lower="-5.236" upper="5.236" velocity="2.9671"/>
+  </joint>
+
+  <!-- Link 4 -->
+  <link name="link_4">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_4.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 5 -->
+  <joint name="joint_5" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <limit effort="0" lower="-2.094" upper="2.094" velocity="2.4435"/>
+  </joint>
+
+  <!-- Link 5 -->
+  <link name="link_5">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_5.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint 6 -->
+  <joint name="joint_6" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <limit effort="0" lower="-6.283" upper="6.283" velocity="3.3161"/>
+  </joint>
+
+  <!-- Link 6 -->
+  <link name="link_6">
+    <visual name="visual">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://manipulator/meshes/link_6.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+</robot>
+
+
