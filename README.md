@@ -15,28 +15,6 @@ This table outlines the essential hardware and software requirements for setting
 |                      | Visual Studio Code                   | Latest Version                   |
 | Dependencies         | Development Tools and Libraries      | Python 3.8, CMake, Git           |
 
-## Installation Instructions
-
-### ROS 2 Humble Installation on Ubuntu 22.04
-```bash
-sudo apt update && sudo apt upgrade
-sudo apt install locales
-sudo locale-gen en_US en_US.UTF-8
-sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-sudo apt install software-properties-common
-sudo add-apt-repository universe
-sudo apt update && sudo apt install curl
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-sudo apt update
-sudo apt install ros-humble-desktop
-source /opt/ros/humble/setup.bash
-
-# Install additional dependencies
-sudo apt install python3-colcon-common-extensions
-sudo apt install ros-dev-tools
 
 ## Specifications
 ## Ros2 installation 
