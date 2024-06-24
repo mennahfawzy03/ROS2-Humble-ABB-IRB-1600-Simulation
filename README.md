@@ -60,7 +60,7 @@ sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
 ```
 sudo apt update
 ```
-```
+
 sudo apt upgrade
 
 # Digital Twin Creation Documentation
