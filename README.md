@@ -15,6 +15,9 @@ This table outlines the essential hardware and software requirements for setting
 |                      | Visual Studio Code                   | Latest Version                   |
 | Dependencies         | Development Tools and Libraries      | Python 3.8, CMake, Git           |
 
+## Description 
+This repository is a documentation of installation of the softwars, the future work to create a digital twin project. The table of contents shows what is included in this files and several markdwon files to explain. It also contains two packages to launch the urdf file of the ann
+
 
 ## Specifications
 ## Ros2 installation 
