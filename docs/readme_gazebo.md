@@ -1,6 +1,6 @@
 This is a documentation for how to use the `gazebo_test` package in the `ws_gazebo` workspace.
 
-### Dependencies Installation
+### ROS2 Packages Installation
 
 To install the necessary dependencies, run the following commands:
 
