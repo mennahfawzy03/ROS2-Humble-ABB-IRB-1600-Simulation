@@ -23,7 +23,7 @@ This repository contains the work I have done so far to create a digital twin fo
 2. [Preparing URDF](#preparing-urdf)
 3. [Manipulator Package](#manipulator-package)
 4. [Gazebo Test](#gazebo-test)
-5. [Future Work](#future work)
+5. [Future Work](#future-work)
 ## Installations
 Installation instructions for the softwares used can be found in [installations](docs/installations.md).
 ## Preparing URDF
