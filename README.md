@@ -15,9 +15,25 @@ This table outlines the essential hardware and software requirements for setting
 |                      | Visual Studio Code                   | Latest Version                   |
 | Dependencies         | Development Tools and Libraries      | Python 3.8, CMake, Git           |
 
-## Description 
-This repository is a documentation of installation of the softwars, the future work to create a digital twin project. The table of contents shows what is included in this files and several markdwon files to explain. It also contains two packages to launch the urdf file of the ann
+# ROS2_abb_irb_1600 Repository About
 
+This repository contains the work I have done so far to create a digital twin for 3D concrete printing. I believe it provides a solid foundation for someone to continue developing the packages in this repository which includes my progress, resources, and documentation that can serve as a quick guide for further development.
+
+The project aims to integrate fluid simulation, body kinematics, inverse kinematics for our robot, cameras, and sensor data integration.
+# Table of Contents
+1. [Installations](#installations)
+2. [Preparing URDF](#preparing-urdf)
+3. [Manipulator Package](#manipulator-package)
+4. [Gazebo Test](#gazebo-test)
+
+## Installations
+Installation instructions for the softwares used can be found in [installations](docs/installations.md).
+## Preparing URDF
+Instructions for preparing URDF for the ABB IRB 1600 can be found [here](docs/preparing_URDF.md).
+## Manipulator Package
+The package to simulate the ABB IRB 16000 robot in RVIZ can be found in [manipulator](manipulator/) and the documentation for the RVIZ setup is found [readme_rviz.md](docs/readme_rviz.md)
+## Gazebo Test Package
+The gazebo test package can be found in [gazebo_test](gazebo_test/) documentation of the Gazebo setup can be found [here](docs/readme_gazebo.md). 
 
 ## Specifications
 ## Ros2 installation 
@@ -66,38 +82,18 @@ sudo apt update
 
 sudo apt upgrade
 
-# Digital Twin Creation Documentation
+# ROS2_abb_irb_1600 Repository About
 
 Welcome to the documentation for the Digital Twin Creation project. This repository contains detailed instructions and guides on how to create a digital twin using ROS2, Gazebo, and a depth camera.
 
-## Table of Contents
-1. [Software Installations](docs/installations.md)
-2. [Project Overview](docs/project_overview.md)
-3. [Prerequisites](docs/prerequisites.md)
-4. [Tools and Technologies](docs/tools_and_technologies.md)
-5. [Setup](docs/setup.md)
-6. [Creating the Digital Twin](docs/creating_the_digital_twin.md)
-    - [Step 1: Model Preparation](docs/step_1_model_preparation.md)
-    - [Step 2: Environment Setup](docs/step_2_environment_setup.md)
-    - [Step 3: Integration](docs/step_3_integration.md)
-    - [Step 4: Testing](docs/step_4_testing.md)
-7. [Challenges and Solutions](docs/challenges_and_solutions.md)
-8. [Future Work](docs/future_work.md)
-9. [Conclusion](docs/conclusion.md)
-10. [References](docs/references.md)
+# Table of Contents
 
-## Quick Links
-- [GitHub Repository](https://github.com/yourusername/yourrepository)
-- [Issues](https://github.com/yourusername/yourrepository/issues)
-- [Pull Requests](https://github.com/yourusername/yourrepository/pulls)
+1. [Manipulator Package](#manipulator-package)
+2. [Gazebo Test](#gazebo-test)
+3. [Installations](#installations)
+4. [Readme Gazebo](#readme-gazebo)
+5. [Readme RViz](#readme-rviz)
+6. [Preparing URDF](#preparing-urdf)
 
-## Getting Started
-To get started with the project, follow the [Setup Guide](docs/setup.md).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Thanks to all the contributors and maintainers of the ROS and Gazebo projects.
-- Special thanks to the community for the support and resources.
 
