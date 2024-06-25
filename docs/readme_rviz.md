@@ -12,7 +12,7 @@ This documentation provides instructions on how to use and continue developing t
 - [Launch the Simulation](#launch-the-simulation)
 - [Future Work](#future-work)
 
-## Dependencies Installation
+## ROS2 Packages Installation
 
 To install the necessary ROS2 packages, run the following commands:
 
