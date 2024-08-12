@@ -80,8 +80,3 @@ Gazebo is already included within the ROS2 Package installed earlier. However, t
 sudo apt install gazebo
 ```
 Now, you can open gazebo by simply running `gazebo` in your terminal. 
-
-## Visual Studio Code 
-(you dont need it you can use simple text editor)
-
-
