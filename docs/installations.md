@@ -74,9 +74,14 @@ After downloading Blender, unzip the downloaded file and extract all files into 
 ![image](https://github.com/user-attachments/assets/801d5318-43b7-4238-838f-78603bf0d1dc)
 
 
-### Gazebo Installation 
-Usually installed when you install ROS but if you need to install separately. 
-### Visual Studio Code 
+## Gazebo Installation 
+Gazebo is already included within the ROS2 Package installed earlier. However, to be able to run gazebo and open it you'll have to install the command first using the following:
+```bash
+sudo apt install gazebo
+```
+Now, you can open gazebo by simply running `gazebo` in your terminal. 
+
+## Visual Studio Code 
 (you dont need it you can use simple text editor)
 
 
