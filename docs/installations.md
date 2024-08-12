@@ -1,4 +1,4 @@
-### ROS 2 Humble Installation on Ubuntu 22.04
+## ROS 2 Humble Installation on Ubuntu 22.04
 
 To set up ROS 2 Humble Hawksbill on Ubuntu for development, you'll need to follow these steps:
 
