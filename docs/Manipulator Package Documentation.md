@@ -2,16 +2,6 @@
 
 This documentation provides instructions on how to use and continue developing the `manipulator` package for launching a simulation in RVIZ.
 
-## Table of Contents
-
-- [Dependencies Installation](#dependencies-installation)
-- [Workspace Setup](#workspace-setup)
-- [Clone the Manipulator Package](#clone-the-manipulator-package)
-- [Build the Workspace](#build-the-workspace)
-- [Source the Setup File](#source-the-setup-file)
-- [Launch the Simulation](#launch-the-simulation)
-- [Future Work](#future-work)
-
 ## ROS2 Packages Installation
 
 Ensure that all existing packages are up to date by running the following commands:
@@ -37,26 +27,24 @@ sudo apt install ros-humble-rviz2
 Create the workspace by running the following commands:
 
 ```bash
-# Navigate to your preferred workspace directory
 mkdir -p ~/ws_manipulator/src
-cd ~/ws_manipulator
 ```
 
 ## Clone the Manipulator Package
 
-Navigate to the `src` directory of the workspace and clone the `manipulator` package:
-
+Navigate to the `src` directory of the workspace if not already in it and clone the `manipulator` package:
 ```bash
-cd ~/ws_manipulator/src
-git clone https://github.com/yourusername/manipulator.git
+cd ws_manipulator/src
+git clone https://github.com/mennahfawzy03/ROS2_abb_irb_1600.git
 ```
+Next, to remove all unwanted components of the whole package and isolate the `manipulator` package, open your Files app, go into the `ws_manipulator/src/ROS2_abb_irb_1600` folder and drag the `manipulator` folder into the main `src` directory. Lastly delete the `ROS2_abb_irb_1600` folder so that all that remains is the `manipulator` package within your `src` directory.
 
 ## Build the Workspace
 
 After cloning the package, build the workspace:
 
 ```bash
-cd ~/ws_manipulator
+cd ws_manipulator
 colcon build
 ```
 
