@@ -44,4 +44,4 @@ This table outlines the essential hardware and software requirements for setting
 
 ## Acknowledgments
 
-Special thanks to [Your Collaborators or Inspiration Sources].
+Special thanks to Dr. Reza Tafreshi, Yosef Mohomad, Hasan Shomar.
