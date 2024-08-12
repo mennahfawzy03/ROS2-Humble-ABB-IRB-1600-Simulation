@@ -70,6 +70,7 @@ For further details, follow the instructions from the [ROS 2 Humble Ubuntu Devel
 Blender is a powerful open-source software used for 3D creation. It is capable of modeling, sculpting, animation, rendering, and more. In this setup, Blender will be used to visualize STL files, scale down large STL meshes, ensure they are correctly scaled, and verify the position of the meshes to know what translation is needed. 
 Blender was installed from [blender.org](https://www.blender.org/download/)
 After downloading Blender, unzip the downloaded file and extract all files into your home directory (or any other preferred directory). Open the application by launching the blender application from your Files App. 
+
 ![image](https://github.com/user-attachments/assets/801d5318-43b7-4238-838f-78603bf0d1dc)
 
 
