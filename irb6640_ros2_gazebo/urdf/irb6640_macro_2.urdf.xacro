@@ -91,7 +91,7 @@
       <collision name="collision">
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/base_link.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/base_link.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
@@ -99,6 +99,9 @@
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/base_link.dae"/>
         </geometry>
+        <material name="yellow">
+          <color rgba="1 1 0 1"/>
+        </material>
       </visual>
       <inertial>
         <mass value="28.873"/>
@@ -109,16 +112,17 @@
     <!-- link_1 -->
     <link name="${prefix}link_1">
       <collision name="collision">
-        <origin xyz="0 0 -0.1255" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_1.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_1.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="0 0 -0.1255" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_1.dae"/>
         </geometry>
+        <material name="yellow"/>
       </visual>
       <inertial>
         <mass value="40.47"/>
@@ -129,16 +133,17 @@
     <!-- link_2 -->
    <link name="${prefix}link_2">
       <collision name="collision">
-        <origin xyz="-0.15 0.137 -0.4865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_2.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_2.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="-0.15 0.137 -0.4865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_2.dae"/>
         </geometry>
+        <material name="yellow"/>
       </visual>
       <inertial>
         <mass value="10.47"/>
@@ -149,16 +154,17 @@
     <!-- link_3 -->
     <link name="${prefix}link_3">
       <collision name="collision">
-        <origin xyz="-0.15 0.107 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_3.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_3.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="-0.15 0.107 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_3.dae"/>
         </geometry>
+        <material name="yellow"/>
       </visual>
       <inertial>
         <mass value="16.44"/>
@@ -169,13 +175,13 @@
     <!-- link_4 -->
     <link name="${prefix}link_4">
       <collision name="collision">
-        <origin xyz="-0.464 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_4.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_4.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="-0.464 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_4.dae"/>
         </geometry>
@@ -190,16 +196,17 @@
     <!-- link_5 -->
     <link name="${prefix}link_5">
       <collision name="collision">
-        <origin xyz="-0.75 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_5.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_5.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="-0.75 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_5.dae"/>
         </geometry>
+        <material name="yellow"/>
       </visual>
       <inertial>
         <mass value="0.19"/>
@@ -210,16 +217,17 @@
     <!-- link_6 -->
     <link name="${prefix}link_6">
       <collision name="collision">
-        <origin xyz="-0.783 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_6.dae"/>
+          <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/collision/link_6.stl"/>
         </geometry>
       </collision>
       <visual name="visual">
-        <origin xyz="-0.783 0 -1.1865" rpy="0 0 0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="file://$(find irb6640_ros2_gazebo)/meshes/visual/link_6.dae"/>
         </geometry>
+        <material name="yellow"/>
       </visual>
       <inertial>
         <mass value="0.04"/>
@@ -232,56 +240,62 @@
     <!-- Joint list: -->
     <!-- joint_1 -->
     <joint type="revolute" name="${prefix}joint_1">
-      <origin xyz="0 0 0.1255" rpy="0 0 0"/>
+      <origin xyz="0 0 0.13" rpy="0 0 0"/>
       <axis xyz="0 0 1"/>
       <parent link="${prefix}base_link"/>
       <child link="${prefix}link_1"/>
       <limit effort="0" lower="-2.967" upper="2.967" velocity="1.7453"/>
+      <dynamics damping="50.0" friction="1.0"/>
     </joint>
 
     <!-- joint_2 -->
     <joint type="revolute" name="${prefix}joint_2">
-      <origin xyz="0.15 -0.137 0.361" rpy="0 0 0"/>
+      <origin xyz="0.15 -0.14 0.49" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <parent link="${prefix}link_1"/>
       <child link="${prefix}link_2"/>
       <limit effort="0" lower="-1.134" upper="1.4855" velocity="1.5707"/>
+      <dynamics damping="50.0" friction="1.0"/>
     </joint>
 
     <!-- joint_3 -->
     <joint type="revolute" name="${prefix}joint_3">
-      <origin xyz="0 0.03 0.7" rpy="0 0 0"/>
+      <origin xyz="0.15 -0.11 1.19" rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <parent link="${prefix}link_2"/>
       <child link="${prefix}link_3"/>
-      <limit effort="0" lower="-3.142" upper="1.222" velocity="1.5707"/>>
+      <limit effort="0" lower="-3.142" upper="1.222" velocity="1.5707"/>
+      <dynamics damping="10.0" friction="1.0"/>
     </joint>
 
     <!-- joint_4 -->
     <joint type="revolute" name="${prefix}joint_4">
-      <origin xyz="0.314 0.107 0" rpy="0 0 0"/>
+      <origin xyz="0.46 0 1.19" rpy="0 0 0"/>
       <axis xyz="1 0 0"/>
       <parent link="${prefix}link_3"/>
       <child link="${prefix}link_4"/>
       <limit effort="0" lower="-5.236" upper="5.236" velocity="2.9671"/>
+      <dynamics damping="5.0" friction="1.0"/>
     </joint>
 
     <!-- joint_5 -->
     <joint type="revolute" name="${prefix}joint_5">
-      <origin xyz="0.286 0 0" rpy="0 0 0"/>
+      <origin xyz="0.75 0 1.19 " rpy="0 0 0"/>
       <axis xyz="0 1 0"/>
       <parent link="${prefix}link_4"/>
       <child link="${prefix}link_5"/>
       <limit effort="0" lower="-2.094" upper="2.094" velocity="2.4435"/>
+      <dynamics damping="2.0" friction="1.0"/>
     </joint>
 
     <!-- joint_6 -->
     <joint type="revolute" name="${prefix}joint_6">
-      <origin xyz="0.033 0 0 " rpy="0 0 0"/>
+      <origin xyz="0.72 0 1.19 " rpy="0 0 0"/>
       <axis xyz="1 0 0"/>
       <parent link="${prefix}link_5"/>
       <child link="${prefix}link_6"/>
       <limit effort="0" lower="-6.283" upper="6.283" velocity="3.3161"/>
+      <dynamics damping="1.0" friction="1.0"/>
     </joint>
     <!-- end of joint list -->
 
