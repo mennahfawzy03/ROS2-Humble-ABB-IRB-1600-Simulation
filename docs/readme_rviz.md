@@ -14,6 +14,14 @@ This documentation provides instructions on how to use and continue developing t
 
 ## ROS2 Packages Installation
 
+Ensure that all existing packages are up to date by running the following commands:
+```bash
+sudo apt update
+```
+```bash
+sudo apt upgrade
+```
+
 To install the necessary ROS2 packages, run the following commands:
 
 ```bash
@@ -21,7 +29,7 @@ sudo apt install ros-humble-joint-state-publisher
 sudo apt install ros-humble-joint-state-publisher-gui
 sudo apt install ros-humble-xacro
 sudo apt install ros-humble-robot-state-publisher
-sudo apt install ros-humble-rviz
+sudo apt install ros-humble-rviz2
 ```
 
 ## Workspace Setup
