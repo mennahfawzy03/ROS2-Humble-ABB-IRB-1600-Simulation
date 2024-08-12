@@ -19,7 +19,7 @@ This table outlines the essential hardware and software requirements for setting
 
 This repository contains the work I have done so far to create a digital twin for 3D concrete printing. I believe it provides a solid foundation for someone to continue developing the packages in this repository which includes my progress, resources, and documentation that can serve as a quick guide for further development which should integrate fluid simulation, body kinematics, inverse kinematics for our robot, cameras, and sensor data integration.
 # Table of Contents
-1. [Installations](#installations)
+1. [Installations and Getting Started](#installations)
 2. [Preparing URDF](#preparing-urdf)
 3. [Manipulator Package](#manipulator-package)
 4. [Gazebo Test](#gazebo-test)
