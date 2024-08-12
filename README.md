@@ -5,15 +5,14 @@ This table outlines the essential hardware and software requirements for setting
 
 | **Requirement Type** | **Description**                      | **Details/Version**              |
 |----------------------|--------------------------------------|----------------------------------|
-| Hardware             | Computer Specifications              | Lenovo Legion S7 16IAH7          |
+| **Hardware**         | Computer Specifications              | Lenovo Legion S7 16IAH7          |
 |                      | Memory                               | 24.0 GiB                         |
 |                      | Processor                            | 12th Gen Intel® Core™ i7-12700H × 20 |
 |                      | Graphics                             | NVIDIA GeForce RTX 3070 Mobile   |
-| Operating System     | Supported OS                         | Ubuntu 22.04.4 LTS               |
-| Software             | ROS 2 Distribution                   | Humble Hawksbill                 |
+| **Operating System** | Supported OS                         | Ubuntu 22.04.4 LTS               |
+| **Software**         | ROS 2 Distribution                   | Humble Hawksbill                 |
 |                      | Gazebo                               | Gazebo 11                        |
-|                      | Visual Studio Code                   | Latest Version                   |
-| Dependencies         | Development Tools and Libraries      | Python 3.8, CMake, Git           |
+| **Dependencies**     | Development Tools and Libraries      | Python 3.8, CMake, Git           |
 
 # ROS2_abb_irb_1600 Repository About
 
