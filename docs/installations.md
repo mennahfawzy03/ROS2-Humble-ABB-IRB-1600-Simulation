@@ -66,9 +66,12 @@ To set up ROS 2 Humble Hawksbill on Ubuntu for development, you'll need to follo
 
 For further details, follow the instructions from the [ROS 2 Humble Ubuntu Development Setup Guide](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
 
-### Blender installation
+## Blender installation
 Blender is a powerful open-source software used for 3D creation. It is capable of modeling, sculpting, animation, rendering, and more. In this setup, Blender will be used to visualize STL files, scale down large STL meshes, ensure they are correctly scaled, and verify the position of the meshes to know what translation is needed. 
 Blender was installed from [blender.org](https://www.blender.org/download/)
+After downloading Blender, unzip the downloaded file and extract all files into your home directory (or any other preferred directory). Open the application by launching the blender application from your Files App. ![image](https://github.com/user-attachments/assets/801d5318-43b7-4238-838f-78603bf0d1dc)
+
+
 ### Gazebo Installation 
 Usually installed when you install ROS but if you need to install separately. 
 ### Visual Studio Code 
